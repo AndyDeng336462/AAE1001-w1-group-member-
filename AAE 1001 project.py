@@ -47,8 +47,8 @@ class AStarPlanner:
         self.tc_y = tc_y
         
 
-        self.Delta_C1 = 0.2 # cost intensive area 1 modifier
-        self.Delta_C2 = 1 # cost intensive area 2 modifier
+        self.Delta_C1 = 0.3 # cost intensive area 1 modifier
+        self.Delta_C2 = 0.15 # cost intensive area 2 modifier
 
         self.costPerGrid = 1 
 
@@ -374,3 +374,31 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+# Define F(x) function
+def F(X):
+    return (0.8*X*54+10*X+1800)*10
+# Define the variable X
+X = 100.48813844421308 
+# Calculate F(x)
+result = F(X)
+print(f'Total cost for A321 = {result}')
+
+# Define F(x) function
+def F(X):
+    return (0.8*X*84+15*X+2000)*7
+# Define the variable X
+X = 100.48813844421308 
+# Calculate F(x)
+result = F(X)
+print(f'Total cost for A330 = {result}')
+
+# Define F(x) function
+def F(X):
+    return (0.8*X*90+20*X+2500)*6
+# Define the variable X
+X = 100.48813844421308 
+# Calculate F(x)
+result = F(X)
+print(f'Total cost for A350 = {result}')
