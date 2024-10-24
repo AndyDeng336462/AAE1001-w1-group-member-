@@ -316,10 +316,10 @@ def main():
     for i in range(-10, 61): # draw the right border
         ox.append(61.0)
         oy.append(i)
-    for i in range(-10, -1): # draw the top border
+    for i in range(-10, 0): # draw the top border
         ox.append(i)
         oy.append(61.0)
-    for i in range(1, 61): # draw the top border
+    for i in range(1, 62): # draw the top border
         ox.append(i)
         oy.append(61.0)
     for i in range(-10, 61): # draw the left border
@@ -383,86 +383,78 @@ if __name__ == '__main__':
 
 #Scenario 1（according to the description, A321 needs 12 flights but can still carry just 2400 passengers;A330:10 flights;A350:9 flights)
 # Define F(x) function
-def F(X):
+def F1(X):
     return (0.76*X*54+15*X+1800)*12
-# Define the variable X
-X =102.48813844421308
-# Calculate F(x)
-result = F(X)
-print(f'\033[31mSCE1:Total cost for A321 = {result}\033[0m')
 
-# Define F(x) function
-def F(X):
+def F2(X):
     return (0.76*X*84+21*X+2000)*10
-# Define the variable X
-X = 102.48813844421308
-# Calculate F(x)
-result = F(X)
-print(f'\033[31mSCE1:Total cost for A330 = {result}\033[0m')
 
-# Define F(x) function
-def F(X):
+def F3(X):
     return (0.76*X*90+27*X+2500)*9
-# Define the variable X
-X = 102.48813844421308 
-# Calculate F(x)
-result = F(X)
-print(f'\033[31mSCE1:Total cost for A350 = {result}\033[0m')
 
+# Function to calculate and print results for all functions
+def calculate_all_with_A(new_A):
+    X = new_A
+    result1 = F1(X)
+    result2 = F2(X)
+    result3 = F3(X)
+    
+    print(f'\033[31mSCE1:Total cost for A350 = {result1}\033[0m')
+    print(f'\033[31mSCE1:Total cost for A350 = {result2}\033[0m')
+    print(f'\033[31mSCE1:Total cost for A350 = {result3}\033[0m')
 
+# Example usage
+A = 102.48813844421308 # Initial value of A
+calculate_all_with_A(A)
 
 #Scenario 2（according to the description, A321:7 flights;A330:5 flights;A350:4 flights)
 # Define F(x) function
-def F(X):
+def F1(X):
     return (0.88*X*54+20*X+1800)*7
-# Define the variable X
-X =102.48813844421308
-# Calculate F(x)
-result = F(X)
-print(f'\033[32mSCE2:Total cost for A321 = {result}\033[0m')
 
-# Define F(x) function
-def F(X):
+def F2(X):
     return (0.88*X*84+27*X+2000)*5
-# Define the variable X
-X = 102.48813844421308
-# Calculate F(x)
-result = F(X)
-print(f'\033[32mSCE2:Total cost for A330 = {result}\033[0m')
 
-# Define F(x) function
-def F(X):
+def F3(X):
     return (0.88*X*90+34*X+2500)*4
-# Define the variable X
-X = 102.48813844421308
-# Calculate F(x) 
-result = F(X)
-print(f'\033[32mSCE2:Total cost for A350 = {result}\033[0m')
+
+# Function to calculate and print results for all functions
+def calculate_all_with_B(new_B):
+    X = new_B
+    result1 = F1(X)
+    result2 = F2(X)
+    result3 = F3(X)
+    
+    print(f'\033[32mSCE2:Total cost for A350 = {result1}\033[0m')
+    print(f'\033[32mSCE2:Total cost for A350 = {result2}\033[0m')
+    print(f'\033[32mSCE2:Total cost for A350 = {result3}\033[0m')
+
+# Example usage
+B = 102.48813844421308  # Initial value of B
+calculate_all_with_B(B)
 
 #Scenario 3（according to the description, A321:13 flights;A330:9 flights;A350:8 flights)
 # Define F(x) function
-def F(X):
+def F1(X):
     return (0.95*X*54+10*X+1800)*13
-# Define the variable X
-X =102.48813844421308
-# Calculate F(x)
-result = F(X)
-print(f'\033[33mSCE3:Total cost for A321 = {result}\033[0m')
 
-# Define F(x) function
-def F(X):
+def F2(X):
     return (0.95*X*84+15*X+2000)*9
-# Define the variable X
-X = 102.48813844421308 
-# Calculate F(x)
-result = F(X)
-print(f'\033[33mSCE3:Total cost for A330 = {result}\033[0m')
 
-# Define F(x) function
-def F(X):
+def F3(X):
     return (0.95*X*90+20*X+2500)*8
-# Define the variable X
-X = 102.48813844421308
-# Calculate F(x)
-result = F(X)
-print(f'\033[33mSCE3:Total cost for A350 = {result}\033[0m')
+
+# Function to calculate and print results for all functions
+def calculate_all_with_C(new_C):
+    X = new_C
+    result1 = F1(X)
+    result2 = F2(X)
+    result3 = F3(X)
+    
+    print(f'\033[33mSCE3:Total cost for A350 = {result1}\033[0m')
+    print(f'\033[33mSCE3:Total cost for A350 = {result2}\033[0m')
+    print(f'\033[33mSCE3:Total cost for A350 = {result3}\033[0m')
+
+# Example usage
+C = 102.48813844421308  # Initial value of C
+calculate_all_with_C(C)
