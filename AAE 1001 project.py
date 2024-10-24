@@ -279,7 +279,7 @@ def main():
     sx = 50.0  # [m]
     sy = 30.0  # [m]
     gx = 0.0  # [m]
-    gy = 58.5  # [m]
+    gy = 60 # [m]
     grid_size = 1  # [m]
     robot_radius = 1.0  # [m]
 
@@ -291,7 +291,10 @@ def main():
     # for i in range(-10, 60):
     #     ox.append(60.0)
     #     oy.append(i)
-    # for i in range(-10, 61):
+    # for i in range(-10, 0):
+    #     ox.append(i)
+    #     oy.append(60.0)
+    # for i in range(2, 61):
     #     ox.append(i)
     #     oy.append(60.0)
     # for i in range(-10, 61):
@@ -307,16 +310,19 @@ def main():
 
     # set obstacle positions for group 9
     ox, oy = [], []
-    for i in range(-10, 60): # draw the button border 
+    for i in range(-10, 61): # draw the button border 
         ox.append(i)
         oy.append(-10.0)
-    for i in range(-10, 60): # draw the right border
-        ox.append(60.0)
+    for i in range(-10, 61): # draw the right border
+        ox.append(61.0)
         oy.append(i)
-    for i in range(-10, 60): # draw the top border
+    for i in range(-10, -1): # draw the top border
         ox.append(i)
-        oy.append(60.0)
-    for i in range(-10, 60): # draw the left border
+        oy.append(61.0)
+    for i in range(1, 61): # draw the top border
+        ox.append(i)
+        oy.append(61.0)
+    for i in range(-10, 61): # draw the left border
         ox.append(-10.0)
         oy.append(i)
 
@@ -375,30 +381,88 @@ def main():
 if __name__ == '__main__':
     main()
 
+#Scenario 1（according to the description, A321 needs 12 flights but can still carry just 2400 passengers;A330:10 flights;A350:9 flights)
+# Define F(x) function
+def F(X):
+    return (0.76*X*54+15*X+1800)*12
+# Define the variable X
+X =102.48813844421308
+# Calculate F(x)
+result = F(X)
+print(f'\033[31mSCE1:Total cost for A321 = {result}\033[0m')
 
 # Define F(x) function
 def F(X):
-    return (0.8*X*54+10*X+1800)*10
+    return (0.76*X*84+21*X+2000)*10
 # Define the variable X
-X = 100.48813844421308 
+X = 102.48813844421308
 # Calculate F(x)
 result = F(X)
-print(f'Total cost for A321 = {result}')
+print(f'\033[31mSCE1:Total cost for A330 = {result}\033[0m')
 
 # Define F(x) function
 def F(X):
-    return (0.8*X*84+15*X+2000)*7
+    return (0.76*X*90+27*X+2500)*9
 # Define the variable X
-X = 100.48813844421308 
+X = 102.48813844421308 
 # Calculate F(x)
 result = F(X)
-print(f'Total cost for A330 = {result}')
+print(f'\033[31mSCE1:Total cost for A350 = {result}\033[0m')
+
+
+
+#Scenario 2（according to the description, A321:7 flights;A330:5 flights;A350:4 flights)
+# Define F(x) function
+def F(X):
+    return (0.88*X*54+20*X+1800)*7
+# Define the variable X
+X =102.48813844421308
+# Calculate F(x)
+result = F(X)
+print(f'\033[32mSCE2:Total cost for A321 = {result}\033[0m')
 
 # Define F(x) function
 def F(X):
-    return (0.8*X*90+20*X+2500)*6
+    return (0.88*X*84+27*X+2000)*5
 # Define the variable X
-X = 100.48813844421308 
+X = 102.48813844421308
 # Calculate F(x)
 result = F(X)
-print(f'Total cost for A350 = {result}')
+print(f'\033[32mSCE2:Total cost for A330 = {result}\033[0m')
+
+# Define F(x) function
+def F(X):
+    return (0.88*X*90+34*X+2500)*4
+# Define the variable X
+X = 102.48813844421308
+# Calculate F(x) 
+result = F(X)
+print(f'\033[32mSCE2:Total cost for A350 = {result}\033[0m')
+
+#Scenario 3（according to the description, A321:13 flights;A330:9 flights;A350:8 flights)
+# Define F(x) function
+def F(X):
+    return (0.95*X*54+10*X+1800)*13
+# Define the variable X
+X =102.48813844421308
+# Calculate F(x)
+result = F(X)
+print(f'\033[33mSCE3:Total cost for A321 = {result}\033[0m')
+
+# Define F(x) function
+def F(X):
+    return (0.95*X*84+15*X+2000)*9
+# Define the variable X
+X = 102.48813844421308 
+# Calculate F(x)
+result = F(X)
+print(f'\033[33mSCE3:Total cost for A330 = {result}\033[0m')
+
+# Define F(x) function
+def F(X):
+    return (0.95*X*90+20*X+2500)*8
+# Define the variable X
+X = 102.48813844421308
+# Calculate F(x)
+result = F(X)
+print(f'\033[33mSCE3:Total cost for A350 = {result}\033[0m')
