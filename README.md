@@ -10,7 +10,8 @@ Introduction:
 # Task 1:
 
 # Our flight path:
-![Screenshot 2024-10-29 124905](https://github.com/user-attachments/assets/623fab94-1d9f-4417-846f-8413643afb7d)
+![WhatsApp Image 2024-10-29 at 14 55 21 (1)](https://github.com/user-attachments/assets/ba92769f-e837-49e4-874e-9e4119a81ed7)
+
 
 Total flight time required for shortest path:
 102.48813844421308 minutes
@@ -66,10 +67,15 @@ Since the total cost for A321 is lowest in scenario 3, therefore A321 is the sol
 
 
 # Task 2:
-![Screenshot 2024-10-29 143639](https://github.com/user-attachments/assets/cf8c619f-59bb-4d68-9769-88d58ebc187d)
+![WhatsApp Image 2024-10-29 at 14 55 21](https://github.com/user-attachments/assets/29e216d5-3ea0-4963-8d6e-34b7114ca25c)
+
 
 We decided to laterally set a minus-cost-area with a width of 5 units at range where y = 45 to 50
 
 It is because the time required for the flight path is the shortest with the assistance of this area at this location.
+
+The time required for this flight path with the presence of jetstream is 101.4896103067892 minutes.
+
+
 
 # Task 3:
