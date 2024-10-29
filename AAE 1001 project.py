@@ -451,8 +451,8 @@ def calculate_all_with_C(new_C):
     result2 = F2(X)
     result3 = F3(X)
     
-    print(f'\033[33mSCE3:Total cost for A350 = {result1}\033[0m')
-    print(f'\033[33mSCE3:Total cost for A350 = {result2}\033[0m')
+    print(f'\033[33mSCE3:Total cost for A321 = {result1}\033[0m')
+    print(f'\033[33mSCE3:Total cost for A330 = {result2}\033[0m')
     print(f'\033[33mSCE3:Total cost for A350 = {result3}\033[0m')
 
 # Example usage
