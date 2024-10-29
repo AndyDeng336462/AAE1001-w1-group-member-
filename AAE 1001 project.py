@@ -381,7 +381,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-#Scenario 1（according to the description, A321 needs 12 flights but can still carry just 2400 passengers;A330:10 flights;A350:9 flights)
+#Scenario 1（according to the description, A321 needs 12 flights but can still carry just 2400 passengers so A321 is not viable in this scenarios;A330:10 flights;A350:9 flights)
 # Define F(x) function
 def F1(X):
     return (0.76*X*54+15*X+1800)*12
@@ -395,11 +395,10 @@ def F3(X):
 # Function to calculate and print results for all functions
 def calculate_all_with_A(new_A):
     X = new_A
-    result1 = F1(X)
     result2 = F2(X)
     result3 = F3(X)
     
-    print(f'\033[31mSCE1:Total cost for A321 = {result1}\033[0m')
+    print(f'\033[31mSCE1:A321 is not viable\033[0m')
     print(f'\033[31mSCE1:Total cost for A330 = {result2}\033[0m')
     print(f'\033[31mSCE1:Total cost for A350 = {result3}\033[0m')
 
