@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/ab25a322-81d8-46cd-bbec-c5ec0f304d0a)![image](https://github.com/user-attachments/assets/9dee43b5-355f-4493-8a37-fb6ed7bec108)# AAE1001-w1-group-member-
-
 DENG Jiabao 
 (Group Leader)
 
