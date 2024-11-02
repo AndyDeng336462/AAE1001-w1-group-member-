@@ -125,7 +125,7 @@ The time required for this flight path with the presence of jetstream is 101.489
 
 # Task 3:
 
-Step1: Noticing that "tatal time cost" has 16 significant figures, we decide to set up a function to address this complicated problem.
+Step1: Noticing that "total time cost" has 16 significant figures, we decide to set up a function to address this complicated problem.
 
 Step2: We notice that when the number of passengers per flight goes greater than 300, the aircraft need to use 4 engines, so we first roughly divide this function into 2 parts:x≤300 and x≥300
 
@@ -141,5 +141,5 @@ Step5: We use GEOGEBRA to generate its graph. Meanwhile we think the minimum uni
 ![image](https://github.com/user-attachments/assets/c1d9de35-4a67-4359-9a26-e876915440ea)
 ![image](https://github.com/user-attachments/assets/4ef25be5-f24f-445a-8889-ca81454cc131)
 
-Step6: Comparing these two values, we decide to make our aircraft have the capacity of 273
+Step6: Comparing these two values, we decide to make our aircraft with the capacity of 273.........
 
