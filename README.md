@@ -96,6 +96,11 @@ Total cost for A330 = 105442.8797206026
 Total cost for A350 = 106499.98884691585
 
 
+# Operation Overview:
+Our program can generate this output automatically just after running the code
+![image](https://github.com/user-attachments/assets/3704854a-d925-4d00-a1ff-aad9339a8610)
+
+
 # Solutions for Task 1:
 
 Since the total cost for A321 is lowest in scenario 1, therefore A321 is the solution for scenario 1.
