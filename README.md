@@ -125,6 +125,17 @@ The time required for this flight path with the presence of jetstream is 101.489
 
 # Task 3:
 
+# Situation:
+
+We design a new aircraft to best fit Scenario 1 in task 1
+, while only considering the cruise time of the flight
+
+We also design the passenger capacity of the aircraft, 
+for each 50 passenger (min 100 to max 450) to increase 
+time cost by 2 $/min (Base CT = 12 $/min) ,given that each engine consumes fuel at 20kg/min
+
+# Solution:
+
 Step1: Noticing that "total time cost" has 16 significant figures, we decide to set up a function to address this complicated problem.
 
 Step2: We notice that when the number of passengers per flight goes greater than 300, the aircraft need to use 4 engines, so we first roughly divide this function into 2 parts:x≤300 and x≥300
