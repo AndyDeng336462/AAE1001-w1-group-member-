@@ -34,7 +34,7 @@ In this project, we simulate a path planning procedure in aviation engineering, 
 
 We rewrite sample codes to compute obstacles and 2 cost-intensive areas in our map,
 
-where it requires more time for aircrafts to travel in these cost-intensive areas.
+where it requires more time for aircrafts to travel in these cost-intensive areas. Also, we added a cost saving area which is a jetstream. Aircraft could speed up and reduce their cost consumption. 
 
 ![international-flight-planning-101](https://github.com/user-attachments/assets/b3725ff7-f0d3-4bcd-a8ce-2fbfda2bde82)
 
