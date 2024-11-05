@@ -115,7 +115,9 @@ Our program can generate this output automatically just after running the code
 
 # Solutions for Task 1:
 
-Since the total cost for A321 is lowest in scenario 1, therefore A321 is the solution for scenario 1.
+Since the total cost for A321 is lowest in scenario 1, however, as A320
+cannot meet the task requirement (transport 3000 passengers with maximum 12 flights in one week)
+, therefore A330 is the solution for scenario 1 as A330 has the second lowest cost.
 
 Since the total cost for A350 is lowest in scenario 2, therefore A350 is the solution for scenario 2.
 
