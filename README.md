@@ -150,16 +150,16 @@ time cost by 2 $/min (Base CT = 12 $/min) ,given that each engine consumes fuel 
 
 # Solution:
 
-Step1: Noticing that "total time cost" has 16 significant figures, we decide to set up a function to address this complicated problem.
+Step1: From the powerpoint we can simply get the equation and the only thing we need to do is separate the domain.
 
 Step2: We notice that when the number of passengers per flight goes greater than 300, the aircraft need to use 4 engines, so we first roughly divide this function into 2 parts:x≤300 and x≥300
 
 Step3: To meet the basic requirement of scenario1, our new need at least 250 capacity to carry all 3000 passengers, and in this design, we need 12 flghts.
 
-Step3: Then we try to increase the capacity of our plane, and we find that if we increase the capacity to 272, the number of flght we need is still 12, only when x goes to 273 will the fight number decrease to 11. So we get our first domain:250≤x≤272. And the tatal cost can be denoted by one function:
+Step3: Then we try to increase the capacity of our plane. When x goes to 273 will the fight number decrease to 11. So we get our first domain:250. And the tatal cost can be denoted by one function:
 ![image](https://github.com/user-attachments/assets/8647319a-367d-41ec-ad86-e470cba458dc)
 
-Step4: By the same token, we find the rest domains and set up the functions respectively.
+Step4: By the same token, we find the rest domains and write the equation respectively.
 ![image](https://github.com/user-attachments/assets/5dcb5cd5-c952-495d-bceb-98d55752e207)
 
 Step5: We use GEOGEBRA to generate its graph. Meanwhile we think the minimum unit of x is 1, so the graph is:
