@@ -163,8 +163,8 @@ Step4: By the same token, we find the rest domains and write the equation respec
 ![image](https://github.com/user-attachments/assets/5dcb5cd5-c952-495d-bceb-98d55752e207)
 
 Step5: We use GEOGEBRA to generate its graph. Meanwhile we think the minimum unit of x is 1, so the graph is:
-![image](https://github.com/user-attachments/assets/c1d9de35-4a67-4359-9a26-e876915440ea)
+![image](https://github.com/user-attachments/assets/c1d9de35-4a67-4359-9a26-e876915440ea) 
 ![image](https://github.com/user-attachments/assets/4ef25be5-f24f-445a-8889-ca81454cc131)
 
-Step6: Comparing these two values, we decide to make our aircraft with the capacity of 273.........
+Step6: Comparing these two values, we decide to make our aircraft with two engines and 273 capacity . It is the optimum design.We name this aircraft to be a350-200. 
 
