@@ -153,6 +153,8 @@ time cost by 2 $/min (Base CT = 12 $/min) ,given that each engine consumes fuel 
 
 # Solution:
 
+##SCENARIO 1: Capacity can increase by the unit of 1)
+
 Step1: From the powerpoint we can simply get the equation and the first thing we need to do is to separate the domain.
 
 Step2: We notice that when the number of passengers per flight goes greater than 300, the aircraft need to be equiped with 4 engines, so we first roughly divide this function into 2 parts: x≤300 and x≥300
@@ -174,4 +176,6 @@ Step6: We use GEOGEBRA to generate its graph. Meanwhile we think the minimum uni
 
 
 Step7: Comparing these two values, we decide to make our aircraft with two engines and 273 capacity . It is the optimum design.We name this aircraft to be a350-200. 
+
+##SCENARIO 2: Capacity should increase by the unit of 50)
 
