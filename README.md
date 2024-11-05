@@ -150,21 +150,25 @@ time cost by 2 $/min (Base CT = 12 $/min) ,given that each engine consumes fuel 
 
 # Solution:
 
-Step1: From the powerpoint we can simply get the equation and the only thing we need to do is separate the domain.
+Step1: From the powerpoint we can simply get the equation and the first thing we need to do is to separate the domain.
 
-Step2: We notice that when the number of passengers per flight goes greater than 300, the aircraft need to use 4 engines, so we first roughly divide this function into 2 parts:x≤300 and x≥300
+Step2: We notice that when the number of passengers per flight goes greater than 300, the aircraft need to be equiped with 4 engines, so we first roughly divide this function into 2 parts: x≤300 and x≥300
 
-Step3: To meet the basic requirement of scenario1, our new need at least 250 capacity to carry all 3000 passengers, and in this design, we need 12 flghts.
+Step3: To meet the basic requirement of scenario1, We need at least 250 capacity to carry all 3000 passengers, and in this design, we need 12 flghts.
 
-Step3: Then we try to increase the capacity of our plane. When x goes to 273 will the fight number decrease to 11. So we get our first domain:250. And the tatal cost can be denoted by one function:
-![image](https://github.com/user-attachments/assets/8647319a-367d-41ec-ad86-e470cba458dc)
+Step4: Then we try to increase the capacity of our plane. We find that when x goes 272, it still requir 12 flights. Only when x goes to 273 will the fight number decrease to 11. So we get our first domain:250. And the tatal cost can be denoted by one function:
+![image](https://github.com/user-attachments/assets/fb9f9785-975d-4ae0-bb97-1963e8de20b1)
 
-Step4: By the same token, we find the rest domains and write the equation respectively.
-![image](https://github.com/user-attachments/assets/5dcb5cd5-c952-495d-bceb-98d55752e207)
 
-Step5: We use GEOGEBRA to generate its graph. Meanwhile we think the minimum unit of x is 1, so the graph is:
-![image](https://github.com/user-attachments/assets/c1d9de35-4a67-4359-9a26-e876915440ea) 
-![image](https://github.com/user-attachments/assets/4ef25be5-f24f-445a-8889-ca81454cc131)
+Step5: By the same token, we find the rest domains and write the equation respectively.
+![image](https://github.com/user-attachments/assets/de43a6ca-1856-4b16-87c8-7dfff6cb7aec)
 
-Step6: Comparing these two values, we decide to make our aircraft with two engines and 273 capacity . It is the optimum design.We name this aircraft to be a350-200. 
+
+Step6: We use GEOGEBRA to generate its graph. Meanwhile we think the minimum unit of x is 1, so the graph is:
+![image](https://github.com/user-attachments/assets/1d763389-07cd-47e3-9d7b-86bb6524b5d4)
+
+![image](https://github.com/user-attachments/assets/8347d03d-787d-4133-b008-f66b51cfc141)
+
+
+Step7: Comparing these two values, we decide to make our aircraft with two engines and 273 capacity . It is the optimum design.We name this aircraft to be a350-200. 
 
