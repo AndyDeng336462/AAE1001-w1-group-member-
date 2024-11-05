@@ -128,7 +128,8 @@ Since the total cost for A321 is lowest in scenario 3, therefore A321 is the sol
 # Task 2:
 
 In task 2, we try to design a new cost reducing area (jet stream area) to reduce the cost of the flight
-![WhatsApp Image 2024-10-29 at 14 55 21](https://github.com/user-attachments/assets/29e216d5-3ea0-4963-8d6e-34b7114ca25c)
+![image](https://github.com/user-attachments/assets/664e1718-594b-4fd0-9c3c-8fc513abe481)
+(This blue area is our cost saving area)
 
 
 We decided to laterally set a minus-cost-area with a width of 5 units at range where y = 45 to 50
