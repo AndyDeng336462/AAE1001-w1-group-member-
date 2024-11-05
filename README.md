@@ -109,8 +109,8 @@ Total cost for A350 = 106499.98884691585
 
 
 # Operation Overview:
-Our program can generate this output automatically just after running the code
-![image](https://github.com/user-attachments/assets/3704854a-d925-4d00-a1ff-aad9339a8610)
+![2024-11-05 12-42-34 00_00_03-00_00_46](https://github.com/user-attachments/assets/b5c581a4-360a-42ec-81e4-17b9fea45ade)
+
 
 
 # Solutions for Task 1:
