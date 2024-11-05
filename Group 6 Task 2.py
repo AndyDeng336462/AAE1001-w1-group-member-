@@ -149,9 +149,8 @@ class AStarPlanner:
                 # add more cost in cost saving area 1
                 if self.calc_grid_position(node.x, self.min_x) in self.gc_x:
                     if self.calc_grid_position(node.y, self.min_y) in self.gc_y:
-                        # print("cost intensive area!!")
+                        # print("cost saving area!!")
                         node.cost = node.cost - self.Delta_C3 * self.motion[i][2]
-                    # print()
 
                 n_id = self.calc_grid_index(node)
 
@@ -366,7 +365,7 @@ def main():
             fc_x.append(i)
             fc_y.append(j)
 
-    # set cost intesive area 3
+    # set cost saving area 1
     gc_x, gc_y = [], []
     for i in range(-10, 60):
         for j in range(47, 52):
@@ -381,7 +380,7 @@ def main():
         
         plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 1
         plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 2
-        plt.plot(gc_x, gc_y, "oy") # plot the cost intensive area 3
+        plt.plot(gc_x, gc_y, "oy") # plot the cost saving area 1
 
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
