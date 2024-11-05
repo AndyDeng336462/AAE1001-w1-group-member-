@@ -36,6 +36,9 @@ We rewrite sample codes to compute obstacles and 2 cost-intensive areas in our m
 
 where it requires more time for aircrafts to travel in these cost-intensive areas.
 
+![international-flight-planning-101](https://github.com/user-attachments/assets/b3725ff7-f0d3-4bcd-a8ce-2fbfda2bde82)
+
+
 # Our codes for obstacles:
 ![Screenshot 2024-10-29 164847](https://github.com/user-attachments/assets/e5911789-561e-4ae2-9e65-910428dfc5ed)
 # Our map layout:
