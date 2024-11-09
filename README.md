@@ -154,7 +154,7 @@ time cost by 2 $/min (Base CT = 12 $/min) ,given that each engine consumes fuel 
 
 # Solution:
 
-##SCENARIO 1: Capacity can increase by the unit of 1)
+## SCENARIO 1: Capacity can increase by the unit of 1)
 
 Step1: From the powerpoint we can simply get the equation and the first thing we need to do is to separate the domain.
 
@@ -179,7 +179,7 @@ Step6: We use GEOGEBRA to generate its graph. Meanwhile we think the minimum uni
 
 Step7: Comparing these two values, we decide to make our aircraft with two engines and 273 capacity . It is the optimum design.We name this aircraft to be a350-200. 
 
-##SCENARIO 2: Capacity increase by the unit of 50
+## SCENARIO 2: Capacity increase by the unit of 50
 
 Step1: In this scenatio, we only have 5 types of aircraft, with capacity of 250,300,350,400,450. And their functions are as followes.
 ![image](https://github.com/user-attachments/assets/3e66e322-fc71-44e3-95c6-26531193039d)
@@ -187,7 +187,7 @@ Step1: In this scenatio, we only have 5 types of aircraft, with capacity of 250,
 Step2: So we write a code to automatically calculate five respective costs, then compare them and print the minimum cost
 ![image](https://github.com/user-attachments/assets/6dd57e33-4271-4b31-8336-f4e9fc637805)
 
-###overview:
+### overview:
 ![2024-11-09 13-06-34 00_00_01-00_00_08](https://github.com/user-attachments/assets/5b4c8602-da39-4967-a0b0-cdf2f1771841)
 
 # Verdict:
