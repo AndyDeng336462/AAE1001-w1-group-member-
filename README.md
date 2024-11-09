@@ -165,7 +165,7 @@ Step3: To meet the basic requirement of scenario1, We need at least 250 capacity
 Step4: Then we try to increase the capacity of our plane. We find that when x goes 272, it still requir 12 flights. Only when x goes to 273 will the fight number decrease to 11. So we get our first domain:250. And the tatal cost can be denoted by one function:
 ![image](https://github.com/user-attachments/assets/fb9f9785-975d-4ae0-bb97-1963e8de20b1)
 
-$${\color{lightgreen}Some group memebers argue that the capacity of aircraft can not increase by the unit of 1 due to its design, so we separate out  scenario 2(the capacity of aircraft increase by the unit of 50)}$$
+$${\color{lightgreen}Some \space group \space memebers \space argue \space that \space the \space capacity \space of \space aircraft \space can \space not \space increase \space by \space the \space unit \space of \space 1 \space due \space to \space its \space design, \space so \space we \space separate \space out \space scenario \space 2(the \space capacity \space of \space aircraft \space increase \space by \space the \space unit \space of \space 50)}$$
 
 Step5: By the same token, we find the rest domains and write the equation respectively.
 ![image](https://github.com/user-attachments/assets/de43a6ca-1856-4b16-87c8-7dfff6cb7aec)
