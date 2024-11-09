@@ -109,7 +109,8 @@ Total cost for A350 = 106499.98884691585
 
 
 # Operation Overview:
-![2024-11-05 12-42-34 00_00_03-00_00_46](https://github.com/user-attachments/assets/b5c581a4-360a-42ec-81e4-17b9fea45ade)
+![2024-11-05 12-42-34 00_00_04-00_00_46 (3)](https://github.com/user-attachments/assets/025c7182-15f3-4f5f-82e9-4da17cb4ca49)
+
 
 
 
@@ -180,7 +181,19 @@ Step7: Comparing these two values, we decide to make our aircraft with two engin
 
 ##SCENARIO 2: Capacity increase by the unit of 50
 
+Step1: In this scenatio, we only have 5 types of aircraft, with capacity of 250,300,350,400,450. And their functions are as followes.
+![image](https://github.com/user-attachments/assets/3e66e322-fc71-44e3-95c6-26531193039d)
 
+Step2: So we write a code to automatically calculate five respective costs, then compare them and print the minimum cost
+![image](https://github.com/user-attachments/assets/6dd57e33-4271-4b31-8336-f4e9fc637805)
+
+###overview:
+![2024-11-09 13-06-34 00_00_01-00_00_08](https://github.com/user-attachments/assets/5b4c8602-da39-4967-a0b0-cdf2f1771841)
+
+# Verdict:
+
+In scenario1 of task 3, the best capacity is 273
+In scenario2 of task 3, the best capacity is 450
 
 
 
