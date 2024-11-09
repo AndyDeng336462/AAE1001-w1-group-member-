@@ -179,3 +179,29 @@ Step7: Comparing these two values, we decide to make our aircraft with two engin
 
 ##SCENARIO 2: Capacity should increase by the unit of 50)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Individual Evaluation
+
+Ho Lok Hang
+
+In this project, I am mostly responsible for the github readme page creation as well as the 
+code testing of Task 2. It has allowed me to showcase my ability to comprehensively understand the project's purpose , functionality, and usage. 
+I also have a deeper understandings in the creation of a github homepage with readme file.
+
+On the other hand, my involvement in code testing for Task 2 has been both challenging and fulfilling. Conducting repeated testing to validate the functionality of the code has shaped my problem-solving skills. Through the process, I have been ensuring that the code meets the project requirements. This allows me to understand the importance of accuracy in coding procedures.
+
+Overall, my dual role in README creation and code testing has provided me with valuable insights into the importance of effective documentation, thorough testing practices, and collaborative project management. 
