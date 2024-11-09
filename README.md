@@ -204,6 +204,7 @@ The code for adding these two checkpoints:
 <img width="619" alt="截屏2024-11-09 下午9 27 56" src="https://github.com/user-attachments/assets/f678d8ea-817c-4a40-9458-fec2890f49c8">
 <img width="468" alt="截屏2024-11-09 下午9 38 01" src="https://github.com/user-attachments/assets/a0b1b956-8deb-4f09-acc5-4a7bb80563d2">
 
+
 The code for letting the aircraft reach the checkpoints:
 <img width="659" alt="截屏2024-11-09 下午9 38 35" src="https://github.com/user-attachments/assets/e3a2b3e3-b5bf-434a-bbef-2f484783f427">
 
