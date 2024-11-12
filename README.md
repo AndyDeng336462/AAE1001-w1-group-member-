@@ -230,6 +230,7 @@ The final path:
 In task A2, the environment keep changing for each operations inside the boundary. There is a ramdomly generated cost intensive area with a fixed area of 40 units * 40 units. Obstacles with moderate density are generated also inside the boundary.
 
 ![Task A2 ](https://github.com/user-attachments/assets/6a2f567f-676b-4f9e-ae45-4ce5816468ed)
+![Task A2 second](https://github.com/user-attachments/assets/4950d23e-4058-4d6d-936c-4d6f69de40f1)
 
 
 # Task A3
