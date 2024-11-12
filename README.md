@@ -187,7 +187,7 @@ Step1: In this scenatio, we only have 5 types of aircraft, with capacity of 250,
 Step2: So we write a code to automatically calculate five respective costs, then compare them and print the minimum cost
 ![image](https://github.com/user-attachments/assets/6dd57e33-4271-4b31-8336-f4e9fc637805)
 
-### overview:
+### Overview:
 ![2024-11-09 13-06-34 00_00_01-00_00_08](https://github.com/user-attachments/assets/5b4c8602-da39-4967-a0b0-cdf2f1771841)
 
 # Verdict:
@@ -226,6 +226,21 @@ And Dijkstra's Algorithm:
 
 <img width="696" alt="截屏2024-11-12 下午12 48 32" src="https://github.com/user-attachments/assets/f07b9c21-36ef-457d-8898-f55adeb61581">
 
+# Similarity between the two algorithms:
+
+Both algorithms traverse a graph by systematically visiting nodes in a specific order. 
+
+Both algorithms also maintain a list of visited nodes to avoid revisiting the same node multiple times.
+
+# Difference between the two algorithms:
+
+Breadth-First Search Algorithm: 
+
+Commonly used in network analysis, shortest path problems in unweighted graphs, and graph traversal.
+
+Dijkstra's Algorithm: 
+
+Frequently applied in routing algorithms, network analysis, and pathfinding in maps or GPS systems.
 
 # Individual Evaluation
 
