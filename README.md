@@ -237,10 +237,12 @@ Both algorithms also maintain a list of visited nodes to avoid revisiting the sa
 Breadth-First Search Algorithm: 
 
 Commonly used in network analysis, shortest path problems in unweighted graphs, and graph traversal.
+In data structures, Breadth-First Search Algorithm uses a simple queue to manage nodes, processing them in the order they are discovered and uses a visited set to track explored nodes.
 
 Dijkstra's Algorithm: 
 
 Frequently applied in routing algorithms, network analysis, and pathfinding in maps or GPS systems.
+In data structures, Dijkstra's Algorithm uses a priority queue to manage nodes, ensuring the node with the smallest known distance is processed first, maintains a distances dictionary to track the shortest known distance to each node and uses a visit set to track explored nodes.
 
 # Individual Evaluation
 
