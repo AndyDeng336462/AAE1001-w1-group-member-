@@ -281,19 +281,19 @@ def main():
         oy.append(i)
 
     # Randomly generate additional obstacles with a density of 800, avoiding the cost-intensive area
-    while len(ox) < 800:
+    while len(ox) < 1000:
         x = random.randint(-10, 60)
         y = random.randint(-10, 60)
-        if (x, y) not in zip(cost_x, cost_y):
-            ox.append(x)
-            oy.append(y)
+       
+        ox.append(x)
+        oy.append(y)
 
     # Ensure start and goal are at least 40 units apart and not surrounded by obstacles
     while True:
-        sx = random.randint(0, 60)
-        sy = random.randint(0, 60)
-        gx = random.randint(0, 60)
-        gy = random.randint(0, 60)
+        sx = random.randint(-10, 60)
+        sy = random.randint(-10, 60)
+        gx = random.randint(-10, 60)
+        gy = random.randint(-10, 60)
         if (math.hypot(gx - sx, gy - sy) >= 40 and
             not is_surrounded_by_obstacles(sx, sy, ox, oy) and
             not is_surrounded_by_obstacles(gx, gy, ox, oy)):
