@@ -27,6 +27,15 @@ HO Lok Hang
 
 - Task 3
 
+- Task A1
+
+- Task A2
+
+- Task A3
+
+- Evaluations
+
+
 # Project Report
 Introduction:
 
