@@ -280,7 +280,7 @@ def main():
         ox.append(60)
         oy.append(i)
 
-    # Randomly generate additional obstacles with a density of 800, avoiding the cost-intensive area
+    # Randomly generate additional obstacles with a density of 800
     while len(ox) < 1000:
         x = random.randint(-10, 60)
         y = random.randint(-10, 60)
