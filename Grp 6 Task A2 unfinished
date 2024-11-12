@@ -1,5 +1,4 @@
-
-        """
+"""
 
 A* grid planning
 
@@ -285,7 +284,7 @@ def main():
     while len(ox) < 800:
         x = random.randint(-10, 60)
         y = random.randint(-10, 60)
-        if (x not in cost_x) or (y not in cost_y):
+        if (x, y) not in zip(cost_x, cost_y):
             ox.append(x)
             oy.append(y)
 
@@ -301,11 +300,11 @@ def main():
             break
 
     if show_animation:  # pragma: no cover
+        plt.plot(cost_x, cost_y, "or")  # plot the cost-intensive area
+
         plt.plot(ox, oy, ".k")  # plot the obstacle
         plt.plot(sx, sy, "og")  # plot the start position
         plt.plot(gx, gy, "xb")  # plot the end position
-
-        plt.plot(cost_x, cost_y, "or")  # plot the cost-intensive area
 
         plt.grid(True)  # plot the grid to the plot panel
         plt.axis("equal")  # set the same resolution for x and y axis
