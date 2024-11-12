@@ -225,6 +225,12 @@ The final path:
 <img width="606" alt="截屏2024-11-09 下午8 58 07" src="https://github.com/user-attachments/assets/455ba55d-5c0f-43d3-b323-593dfe434543">
 
 
+# Task A2
+
+In task A2, the environment keep changing for each operations inside the boundary. There is a ramdomly generated cost intensive area with a fixed area of 40 units * 40 units. Obstacles with moderate density are generated also inside the boundary.
+
+![Task A2 ](https://github.com/user-attachments/assets/6a2f567f-676b-4f9e-ae45-4ce5816468ed)
+
 
 # Task A3
 In task A3, we chose Breadth-First Search algorithm:
