@@ -7,10 +7,6 @@ CHEN Yulin
 
 WONG Siu Him Derick
 
-SO Chak Man
-
-LI Wai Fung
-
 MAN Chor Fung
 
 HO Lok Hang
