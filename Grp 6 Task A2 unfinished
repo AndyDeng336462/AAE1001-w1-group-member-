@@ -280,24 +280,29 @@ def main():
         ox.append(60)
         oy.append(i)
 
-    # Randomly generate additional obstacles with a density of 800
-    while len(ox) < 1000:
-        x = random.randint(-10, 60)
-        y = random.randint(-10, 60)
-       
-        ox.append(x)
-        oy.append(y)
-
-    # Ensure start and goal are at least 40 units apart and not surrounded by obstacles
+    # Ensure start and goal are at least 40 units apart, not surrounded by obstacles, and inside the boundary
     while True:
-        sx = random.randint(-10, 60)
-        sy = random.randint(-10, 60)
-        gx = random.randint(-10, 60)
-        gy = random.randint(-10, 60)
+        sx = random.randint(-9, 59)  # Adjusted to be inside the boundary
+        sy = random.randint(-9, 59)  # Adjusted to be inside the boundary
+        gx = random.randint(-9, 59)  # Adjusted to be inside the boundary
+        gy = random.randint(-9, 59)  # Adjusted to be inside the boundary
         if (math.hypot(gx - sx, gy - sy) >= 40 and
             not is_surrounded_by_obstacles(sx, sy, ox, oy) and
             not is_surrounded_by_obstacles(gx, gy, ox, oy)):
             break
+
+    # Randomly generate additional obstacles with a density of 800
+    while len(ox) < 1000:
+        x = random.randint(-10, 60)
+        y = random.randint(-10, 60)
+
+        # Ensure obstacles are not within 2 units of the start and goal points
+        if (math.hypot(x - sx, y - sy) >= 2 and
+            math.hypot(x - gx, y - gy) >= 2 and
+            (x, y) != (sx, sy) and
+            (x, y) != (gx, gy)):
+            ox.append(x)
+            oy.append(y)
 
     if show_animation:  # pragma: no cover
         plt.plot(cost_x, cost_y, "or")  # plot the cost-intensive area
