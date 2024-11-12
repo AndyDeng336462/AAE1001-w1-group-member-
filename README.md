@@ -222,7 +222,10 @@ In task A3, we chose Breadth-First Search algorithm:
 
 <img width="666" alt="截屏2024-11-11 下午10 31 54" src="https://github.com/user-attachments/assets/452695e4-b2e1-4ec3-9144-002604e7ea90">
 
-And 
+And Dijkstra's Algorithm:
+
+<img width="696" alt="截屏2024-11-12 下午12 48 32" src="https://github.com/user-attachments/assets/f07b9c21-36ef-457d-8898-f55adeb61581">
+
 
 # Individual Evaluation
 
