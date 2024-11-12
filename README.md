@@ -217,11 +217,12 @@ The final path:
 
 
 
+# Task A3
+In task A3, we chose Breadth-First Search algorithm:
 
+<img width="666" alt="截屏2024-11-11 下午10 31 54" src="https://github.com/user-attachments/assets/452695e4-b2e1-4ec3-9144-002604e7ea90">
 
-
-
-
+And 
 
 # Individual Evaluation
 
