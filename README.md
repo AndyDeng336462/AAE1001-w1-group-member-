@@ -47,6 +47,7 @@ where it requires more time for aircrafts to travel in these cost-intensive area
 
 ## Our codes for obstacles:
 ![Screenshot 2024-10-29 164847](https://github.com/user-attachments/assets/e5911789-561e-4ae2-9e65-910428dfc5ed)
+
 # Our map layout:
 ![WhatsApp Image 2024-10-29 at 16 53 19](https://github.com/user-attachments/assets/3dbd2fdc-9627-4f01-b4a7-744b25dc0f24)
 
