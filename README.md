@@ -114,7 +114,8 @@ Total cost for A350 = 106499.98884691585
 
 
 # Operation Overview:
-![2024-11-05 12-42-34 00_00_04-00_00_46 (3)](https://github.com/user-attachments/assets/025c7182-15f3-4f5f-82e9-4da17cb4ca49)
+![2024-11-13 11-37-50 00_00_04-00_01_09](https://github.com/user-attachments/assets/764be472-519b-4544-a5ac-7e3695a985f7)
+
 
 
 
