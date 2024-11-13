@@ -67,15 +67,13 @@ Total flight time required for shortest path:
 102.48813844421308 minutes
 
 Scenario:
- [1. 2000 passengers travel from start to destination this week](Scenario-1)
- 
- [2. 10 flights maximum for one week](Scenario-2)
- 
- [3. Time cost = low, Fuel cost = 0.8 $/kg](Scenario-3)
+ 1. 2000 passengers travel from start to destination this week
+ 2. 10 flights maximum for one week](Scenario-2
+ 3. Time cost = low, Fuel cost = 0.8 $/kg](Scenario-3
 
 
 
-##Scenario 1:
+## Scenario 1:
 Our codes to calculate the total cost of different aircrafts for scenario 1:
 ![Screenshot 2024-10-29 170004](https://github.com/user-attachments/assets/a19fab1a-75d3-4b24-8cbf-11f183b826b7)
 
@@ -88,7 +86,7 @@ Total cost for A330 = 106950.93665607038
 Total cost for A350 = 110496.31566820135
 
 
-##Scenario 2:
+## Scenario 2:
 Our codes to calculate the total cost of different aircrafts for scenario 2:
 ![Screenshot 2024-10-29 170216](https://github.com/user-attachments/assets/4e292580-e969-4043-9d26-830239be1c1f)
 
@@ -103,7 +101,7 @@ Total cost for A330 = 61715.51465894991
 Total cost for A350 = 56406.62908753968
 
 
-##Scenario 3:
+## Scenario 3:
 Our codes to calculate the total cost of different aircrafts for scenario 3:
 ![Screenshot 2024-10-29 170123](https://github.com/user-attachments/assets/07178dec-271f-4023-bd7d-b78d7b272487)
 
