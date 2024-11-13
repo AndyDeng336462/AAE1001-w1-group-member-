@@ -34,8 +34,7 @@ HO Lok Hang
 - [Individual Evaluation](#Individual-Evaluation)
 
 
-# Project Report
-Introduction:
+# Introduction:
 
 In this project, we simulate a path planning procedure in aviation engineering, with the assistance from python codes and github.
 
@@ -46,7 +45,7 @@ where it requires more time for aircrafts to travel in these cost-intensive area
 ![international-flight-planning-101](https://github.com/user-attachments/assets/b3725ff7-f0d3-4bcd-a8ce-2fbfda2bde82)
 
 
-# Our codes for obstacles:
+## Our codes for obstacles:
 ![Screenshot 2024-10-29 164847](https://github.com/user-attachments/assets/e5911789-561e-4ae2-9e65-910428dfc5ed)
 # Our map layout:
 ![WhatsApp Image 2024-10-29 at 16 53 19](https://github.com/user-attachments/assets/3dbd2fdc-9627-4f01-b4a7-744b25dc0f24)
@@ -54,7 +53,7 @@ where it requires more time for aircrafts to travel in these cost-intensive area
 
 
 
-# Task 1:
+## Task 1:
 
 By running our modified codes, we are able to come out with a direct flight path which requires the shortest time
 to travel from the starting point to the ending point.
