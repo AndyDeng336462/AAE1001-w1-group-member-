@@ -48,13 +48,13 @@ where it requires more time for aircrafts to travel in these cost-intensive area
 ## Our codes for obstacles:
 ![Screenshot 2024-10-29 164847](https://github.com/user-attachments/assets/e5911789-561e-4ae2-9e65-910428dfc5ed)
 
-# Our map layout:
+## Our map layout:
 ![WhatsApp Image 2024-10-29 at 16 53 19](https://github.com/user-attachments/assets/3dbd2fdc-9627-4f01-b4a7-744b25dc0f24)
 
 
 
 
-## Task 1:
+# Task 1:
 
 By running our modified codes, we are able to come out with a direct flight path which requires the shortest time
 to travel from the starting point to the ending point.
@@ -73,7 +73,7 @@ Scenario:
 
 
 
-# Scenario 1:
+## Scenario 1:
 Our codes to calculate the total cost of different aircrafts for scenario 1:
 ![Screenshot 2024-10-29 170004](https://github.com/user-attachments/assets/a19fab1a-75d3-4b24-8cbf-11f183b826b7)
 
@@ -86,7 +86,7 @@ Total cost for A330 = 106950.93665607038
 Total cost for A350 = 110496.31566820135
 
 
-# Scenario 2:
+## Scenario 2:
 Our codes to calculate the total cost of different aircrafts for scenario 2:
 ![Screenshot 2024-10-29 170216](https://github.com/user-attachments/assets/4e292580-e969-4043-9d26-830239be1c1f)
 
@@ -101,7 +101,7 @@ Total cost for A330 = 61715.51465894991
 Total cost for A350 = 56406.62908753968
 
 
-# Scenario 3:
+## Scenario 3:
 Our codes to calculate the total cost of different aircrafts for scenario 3:
 ![Screenshot 2024-10-29 170123](https://github.com/user-attachments/assets/07178dec-271f-4023-bd7d-b78d7b272487)
 
@@ -122,7 +122,7 @@ Total cost for A350 = 106499.98884691585
 
 
 
-# Solutions for Task 1:
+## Solutions for Task 1:
 
 Since the total cost for A321 is lowest in scenario 1, however, as A320
 cannot meet the task requirement (transport 3000 passengers with maximum 12 flights in one week)
@@ -151,7 +151,7 @@ The time required for this flight path with the presence of jetstream is 101.489
 
 # Task 3:
 
-# Situation:
+## Situation:
 
 We design a new aircraft to best fit Scenario 1 in task 1
 , while only considering the cruise time of the flight
@@ -160,7 +160,7 @@ We also design the passenger capacity of the aircraft,
 for each 50 passenger (min 100 to max 450) to increase 
 time cost by 2 $/min (Base CT = 12 $/min) ,given that each engine consumes fuel at 20kg/min
 
-# Solution:
+## Solution:
 
 ## SCENARIO 1: Capacity can increase by the unit of 1)
 
@@ -198,7 +198,7 @@ Step2: So we write a code to automatically calculate five respective costs, then
 ### Overview:
 ![2024-11-09 13-06-34 00_00_01-00_00_08](https://github.com/user-attachments/assets/5b4c8602-da39-4967-a0b0-cdf2f1771841)
 
-# Verdict:
+## Verdict:
 
 In scenario1 of task 3, the best capacity is 273
 In scenario2 of task 3, the best capacity is 450
@@ -241,13 +241,13 @@ And Dijkstra's Algorithm:
 
 <img width="696" alt="截屏2024-11-12 下午12 48 32" src="https://github.com/user-attachments/assets/f07b9c21-36ef-457d-8898-f55adeb61581">
 
-# Similarity between the two algorithms:
+## Similarity between the two algorithms:
 
 Both algorithms traverse a graph by systematically visiting nodes in a specific order. 
 
 Both algorithms also maintain a list of visited nodes to avoid revisiting the same node multiple times.
 
-# Difference between the two algorithms:
+## Difference between the two algorithms:
 
 Breadth-First Search Algorithm: 
 
@@ -258,6 +258,8 @@ Dijkstra's Algorithm:
 
 Frequently applied in routing algorithms, network analysis, and pathfinding in maps or GPS systems.
 In data structures, Dijkstra's Algorithm uses a priority queue to manage nodes, ensuring the node with the smallest known distance is processed first and maintains a distances dictionary to track the shortest known distance to each node.
+
+
 # Individual Evaluation
 
 Ho Lok Hang
