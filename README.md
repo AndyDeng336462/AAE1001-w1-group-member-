@@ -272,7 +272,7 @@ In data structures, Dijkstra's Algorithm uses a priority queue to manage nodes, 
 
 # Individual Evaluation
 
-Ho Lok Hang
+## Ho Lok Hang
 
 In this project, I am mostly responsible for the github readme page creation as well as the 
 code testing of Task 2. It has allowed me to showcase my ability to comprehensively understand the project's purpose , functionality, and usage. 
@@ -281,3 +281,9 @@ I also have a deeper understandings in the creation of a github homepage with re
 On the other hand, my involvement in code testing for Task 2 has been both challenging and fulfilling. Conducting repeated testing to validate the functionality of the code has shaped my problem-solving skills. Through the process, I have been ensuring that the code meets the project requirements. This allows me to understand the importance of accuracy in coding procedures.
 
 Overall, my role in README creation and code testing has provided me with valuable insights into the importance of effective documentation, thorough testing practices, and collaborative project management. 
+
+## Man Chor Fung
+
+In this project, I am reponsible for Task 1 and additional task A2. I also take part in writing the readme page. 
+
+At first, when I was trying to do task 1, I found it really difficult to edit the sample codes since I don't have any coding experience before. After reading the code and notes, I breifly understand the pattern and how the mechanism of the code. When I was editting the code, I encountered a problem. By changing the coordinates of the existing obstacles codes, I successfully place the obstacle to the correct position. However, 
