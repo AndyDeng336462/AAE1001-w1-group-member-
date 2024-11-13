@@ -1,3 +1,5 @@
+# Group member
+
 DENG Jiabao 
 (Group Leader)
 
@@ -13,23 +15,23 @@ HO Lok Hang
 
 
 
-# Table of content
+# Table of Contents
 
-- Introduction
+- [Introduction](#Introduction)
 
-- Task 1
+- [Task 1](#Task-1) 
 
-- Task 2
+- [Task 2](#Task-2) 
 
-- Task 3
+- [Task 3](#Task-3)
 
-- Task A1
+- [Task A1](#Task-A1)
 
-- Task A2
+- [Task A2](#Task-A2)
 
-- Task A3
+- [Task A3](#Task-A3)
 
-- Evaluations
+- [Evaluations](#Evaluations)
 
 
 # Project Report
