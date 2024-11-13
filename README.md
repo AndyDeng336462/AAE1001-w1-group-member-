@@ -67,9 +67,9 @@ Total flight time required for shortest path:
 102.48813844421308 minutes
 
 Scenario:
- 1. 2000 passengers travel from start to destination this week
- 2. 10 flights maximum for one week
- 3. Time cost = low, Fuel cost = 0.8 $/kg
+ [1. 2000 passengers travel from start to destination this week](Scenario-1)
+ [2. 10 flights maximum for one week](Scenario-2)
+ [3. Time cost = low, Fuel cost = 0.8 $/kg](Scenario-3)
 
 
 
