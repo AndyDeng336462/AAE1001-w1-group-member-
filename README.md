@@ -185,7 +185,7 @@ Step6: We use GEOGEBRA to generate its graph. Meanwhile we think the minimum uni
 ![image](https://github.com/user-attachments/assets/8347d03d-787d-4133-b008-f66b51cfc141)
 
 
-Step7: Comparing these two values, we decide to make our aircraft with two engines and 273 capacity . It is the optimum design.We name this aircraft to be a350-200. 
+Step7: Comparing these two values, we decide to make our aircraft with two engines and 273 capacity . It is the optimum design.We name this aircraft as a350-200. 
 
 ## SCENARIO 2: Capacity increase by the unit of 50
 
