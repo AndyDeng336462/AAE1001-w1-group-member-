@@ -229,8 +229,9 @@ The final path:
 In task A2, the environment keep changing for each operations inside the boundary. There is a ramdomly generated cost intensive area with a fixed area of 40 units * 40 units. Obstacles with moderate density are randomly generated inside the boundary and they cannot surround the starting point and goal and cannot be covered by the cost intensive area. Starting point and finishing point should have a distance of minimun 40 units. 
 
 Random path is plotted by the code. These are some of the generated result.
-![Task A2 ](https://github.com/user-attachments/assets/6a2f567f-676b-4f9e-ae45-4ce5816468ed)
-![Task A2 second](https://github.com/user-attachments/assets/4950d23e-4058-4d6d-936c-4d6f69de40f1)
+![ban diagonal ](https://github.com/user-attachments/assets/f2900cf9-3ac6-4d65-a086-d3a40956e61f)
+![ban diagonal 2](https://github.com/user-attachments/assets/c3825a52-3d2d-40e9-98de-01597dda4647)
+
 
 These codes below ensure both starting point and goal are generated randomly and in the boundaries.
 ![Start and goal point ](https://github.com/user-attachments/assets/a2606b66-a781-4251-9dc3-eb33cb2ec8b2)
@@ -240,6 +241,9 @@ These codes below allow obstacles to be generated randomly with moderate density
 
 Codes below generate a random cost intensive area with a fixed dimension of 20 units *20 units. 
 ![Random cost intensive area](https://github.com/user-attachments/assets/b192d824-e66b-4c8a-845c-52d717dc19c2)
+
+These codes restrict diagonal movements.
+![no diagonal code](https://github.com/user-attachments/assets/1c64d3c8-4284-48ad-8123-e6f851c9aaeb)
 
 
 # Task A3
