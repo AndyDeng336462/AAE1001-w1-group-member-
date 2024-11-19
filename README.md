@@ -240,7 +240,8 @@ These codes below allow obstacles to be generated randomly with moderate density
 ![obstacles](https://github.com/user-attachments/assets/8494927c-a2da-4b76-99ba-043b4393687d)
 
 Codes below generate a random cost intensive area with a fixed dimension of 20 units *20 units. 
-![Random cost intensive area](https://github.com/user-attachments/assets/b192d824-e66b-4c8a-845c-52d717dc19c2)
+![random cost intensive area](https://github.com/user-attachments/assets/eff31a69-448a-4e82-9dbd-fd403632414c)
+
 
 These codes restrict diagonal movements.
 ![no diagonal code](https://github.com/user-attachments/assets/1c64d3c8-4284-48ad-8123-e6f851c9aaeb)
