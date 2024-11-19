@@ -251,8 +251,8 @@ def main():
     robot_radius = 1.0  # [m]
 
     # Randomly generate a single cost-intensive area of 40x40 units
-    cost_area_x_start = random.randint(0, 21)  # Random start x position
-    cost_area_y_start = random.randint(0, 21)  # Random start y position
+    cost_area_x_start = random.randint(-10, 20)  # Random start x position
+    cost_area_y_start = random.randint(-10, 20)  # Random start y position
 
     cost_x, cost_y = [], []
     for i in range(cost_area_x_start, cost_area_x_start + 40):
