@@ -170,7 +170,7 @@ Step2: We notice that when the number of passengers per flight goes greater than
 
 Step3: To meet the basic requirement of scenario1, We need at least 250 capacity to carry all 3000 passengers, and in this design, we need 12 flghts.
 
-Step4: Then we try to increase the capacity of our plane. We find that when x goes 272, it still requir 12 flights. Only when x goes to 273 will the fight number decrease to 11. So we get our first domain:250. And the tatal cost can be denoted by one function:
+Step4: Then we try to increase the capacity of our plane. We find that when x goes 272, it still requir 12 flights. Only when x goes to 273 will the fight number decrease to 11. So we get our first domain:250~272. And the tatal cost can be denoted by one function:
 ![image](https://github.com/user-attachments/assets/fb9f9785-975d-4ae0-bb97-1963e8de20b1)
 
 $${\color{lightgreen}Some \space group \space memebers \space argue \space that \space the \space capacity \space of \space aircraft \space can \space not \space increase \space by \space the \space unit \space of \space 1 \space due \space to \space its \space design, \space so \space we \space separate \space out \space scenario \space 2(the \space capacity \space of \space aircraft \space increase \space by \space the \space unit \space of \space 50)}$$
