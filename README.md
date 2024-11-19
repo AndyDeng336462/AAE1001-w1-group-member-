@@ -250,7 +250,8 @@ In task A3, we chose Breadth-First Search algorithm:
 
 And Dijkstra's Algorithm:
 
-![image](https://github.com/user-attachments/assets/c77de8e5-bd77-47d5-b687-fd4375d632e4)
+![image](https://github.com/user-attachments/assets/809a5717-e171-4c25-8242-b24149eec3d0)
+
 
 
 ## Similarity between the two algorithms:
