@@ -299,3 +299,9 @@ At first, when I was trying to do task 1, I found it difficult to edit the sampl
 Besides, in task A2, I have learnt to use AI to assist my work. In the era of AI, it is important to know how to implement AI into our work. This project provided an opportunity to let me use AI to assist with my work. AI helped me to proofread and explain how does the code works. Additionally, AI provides some sample code for reference. With those samples, I could gradually finish Task A2 such as coding a random cost intensive area and obstacles even without any coding experience. By the task I realized the power of AI and how it would improve our efficiency.
 
 To conclude, this project offered me an insight into how AI assists our work and a taste of coding. I believe this experience would be invaluable for my studies in the future.
+
+## CHEN Yulin
+
+In this group project, I cooperated with my teammates to finish the task 3 and wrote the report of task A1 in the readme page. I've learned a lot coding knowledge from my teammates and realized the importance of cooperation.
+When I tried to finish task 3, at the beginning, I overlooked some details. After my teammate's modification, we finally finish this task. When I wrote the report of task A1 in the readme page, I should first learn to understand my teammates' code and then wrote the report, giving me the opportunity to learn the meaning of every steps in code.
+In conclusion, this group project give me a valuable opportunity to cooperate with others and learn some coding knowledge. I think this experience will promote my further study.
