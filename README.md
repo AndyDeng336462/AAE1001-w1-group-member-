@@ -311,6 +311,8 @@ In conclusion, this group project give me a valuable opportunity to cooperate wi
 ## Wang Qiushi
 
 In terms of tools, this was my first time using GitHub as well as Visual studio code. I think Github is a great tool for collaboration in terms of writing code, and it greatly improved the efficiency of our collaboration. Also, I learned how to use AI in Visual Studio Code to help us complete and understand the code, which accelerated my understanding of the code base. For example, when I am working with complex code, I can ask the AI about the methods used and what they represent.
+
 In terms of working with aviation, I learned about the calculation of aviation fuel and the importance of cost through the third assignment. 
+
 Lastly, in terms of code, I tried to solve additional task 2 but I ran into some problems. I could not get the fuel consumption zones to appear accurately and randomly. So, I still need more practice to familiarize myself with the code and using the AI.
 
