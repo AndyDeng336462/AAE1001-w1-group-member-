@@ -322,4 +322,6 @@ In this project, I mainly responsible for assisting my groupmates to finish task
 
 Apart from that, I also understand many terms and calculations about aviaion such as how jet stream areas can reduce the cost of flight or how importance it is for us to calculate the amount of fuel for the flight carefully before the plane took off. 
 
-Moreover, during number of testings, I
+Moreover, during number of testings, I,ve learned that AI is a very useful tool for us to carry out multiple simulations, doing some prediction and give us some information that we can apply it to our learning. 
+
+In the end, I think this group project provided me an unforgettable experience to access to different knowledges about aviation and eventually increased my interest in coding and AI. 
