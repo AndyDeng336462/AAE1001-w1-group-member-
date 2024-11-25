@@ -316,3 +316,10 @@ In terms of working with aviation, I learned about the calculation of aviation f
 
 Lastly, in terms of code, I tried to solve additional task 2 but I ran into some problems. I could not get the fuel consumption zones to appear accurately and randomly. So, I still need more practice to familiarize myself with the code and using the AI.
 
+## Wong Siu HIm Derick
+
+In this project, I mainly responsible for assisting my groupmates to finish task 2 and 3. I've learned the importance of communication when working with others. Besides, as this is my first time using Github and coding, I've learned a lot of coding skills from my groupmates.
+
+Apart from that, I also understand many terms and calculations about aviaion such as how jet stream areas can reduce the cost of flight or how importance it is for us to calculate the amount of fuel for the flight carefully before the plane took off. 
+
+Moreover, during number of testings, I
