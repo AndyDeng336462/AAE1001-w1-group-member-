@@ -325,3 +325,7 @@ Apart from that, I also understand many terms and calculations about aviaion suc
 Moreover, during number of testings, I,ve learned that AI is a very useful tool for us to carry out multiple simulations, doing some prediction and give us some information that we can apply it to our learning. 
 
 In the end, I think this group project provided me an unforgettable experience to access to different knowledges about aviation and eventually increased my interest in coding and AI. 
+
+
+## DENG Jiabao
+
