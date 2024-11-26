@@ -329,3 +329,8 @@ In the end, I think this group project provided me an unforgettable experience t
 
 ## DENG Jiabao
 
+We are given some difficult tasks from the ground that we all are not familiar with. We spent time learning using GitHub to cooperate effectively and sharing our own comprehension on coding, which was a rosy experience for all of us.
+
+In the process of coding, I first tried to figure out the meaning of each code, after wasting 4 hours in vain, I decided to use AI for assistance. Then I got to know the power of AI tools. I learned a whole lot of tactics to make AI understand my exact meaning. And I accumulate a large deal of tips and tricks for choosing appropriate AI tools to reach different goals respectively.
+
+In the larger sense, I realized the convenience of AI and its potential as an assistant for improving my academic learning efficiency. Even though this lecture will literally end in the near future, I will still keep my steps in digging out the potential usage of AI and make it a strong partner for me.
