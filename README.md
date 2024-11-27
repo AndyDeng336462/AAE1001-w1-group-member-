@@ -249,31 +249,43 @@ In task A2, the environment keep changing for each operations inside the boundar
 
 # Task A3
 In task A3, we chose Breadth-First Search algorithm:
-
 ![image](https://github.com/user-attachments/assets/864b8c7f-b7b7-4c52-ad50-b581cba17910)
 
-
 And Dijkstra's Algorithm:
-
 ![image](https://github.com/user-attachments/assets/809a5717-e171-4c25-8242-b24149eec3d0)
 
+## Working principle:
+### Breadth-First Search (BFS)
+1.Determine the starting node.
+2.Examine all unvisited neighbors of this node.
+3.Mark each neighbor as visited and enqueue them.
+4.Repeat the process until the goal node is found or all nodes have been explored.
+
+### Dijkstra's Algorithm
+1.Determine the starting node.
+2.For each unvisited neighbor of this node, calculate the distance from the start node through the current node. If this new distance is smaller than the previously known distance, update the tentative distance.
+3.Once all neighbors of the current node are processed, move to the next node with the smallest tentative distance.
+4.Repeat the process until the shortest path to all nodes is determined.
 
 ## Comparison
 ### Breadth-First Search (BFS)
-   #### Pros:
-   Completeness: BFS is complete, meaning it will find a solution if one exists.
-   Optimality: In unweighted graphs, BFS finds the shortest path in terms of the number of edges.
-   #### Cons:
-   Memory Usage: BFS can require a lot of memory because it stores all nodes at the current depth level.
-   Inefficiency in Weighted Graphs: BFS does not account for edge weights, making it unsuitable for finding the shortest path in weighted graphs.
-### Dijkstra's Algorithm
-   #### Pros:
-   Optimality: Dijkstra's algorithm is guaranteed to find the shortest path in graphs with non-negative weights.
-   Versatility: It can be used to find the shortest path from a single source to all other nodes.
-   #### Cons:
-   Inefficiency with Large Graphs: Dijkstra's algorithm can be slower than A* in large graphs because it does not use heuristics to guide the search.
-   Memory Usage: Like A*, it can consume a lot of memory, especially in dense graphs.
+#### Pros:
+Completeness: BFS is complete, meaning it will find a solution if one exists.
+Optimality: In unweighted graphs, BFS finds the shortest path in terms of the number of edges.
+#### Cons:
+Memory Usage: BFS can require a lot of memory because it stores all nodes at the current depth level.
+Inefficiency in Weighted Graphs: BFS does not account for edge weights, making it unsuitable for finding the shortest path in weighted graphs.
 
+### Dijkstra's Algorithm
+#### Pros:
+Optimality: Dijkstra's algorithm is guaranteed to find the shortest path in graphs with non-negative weights.
+Versatility: It can be used to find the shortest path from a single source to all other nodes.
+#### Cons:
+Inefficiency with Large Graphs: Dijkstra's algorithm can be slower than A* in large graphs because it does not use heuristics to guide the search.
+Memory Usage: Like A*, it can consume a lot of memory, especially in dense graphs.
+
+## Application Scenarios
+![image](https://github.com/user-attachments/assets/067ad168-774d-4ee1-bba5-1232a5d1ef88)
 
 
 # Individual Evaluation
