@@ -212,17 +212,16 @@ We analysed the ground rules of A* algorithm and completely understand how it wo
 We add two checkpoints on the basis of task 1, one checkpoint for each cost intensive area.
 
 The code for adding these two checkpoints:
-
 <img width="619" alt="截屏2024-11-09 下午9 27 56" src="https://github.com/user-attachments/assets/f678d8ea-817c-4a40-9458-fec2890f49c8">
 <img width="468" alt="截屏2024-11-09 下午9 38 01" src="https://github.com/user-attachments/assets/a0b1b956-8deb-4f09-acc5-4a7bb80563d2">
 
+Newly added moving rule
+![image](https://github.com/user-attachments/assets/06d9106e-eaca-4748-816e-87e398efdc91)
 
-The code for letting the aircraft reach the checkpoints:
-
+Print the animation:
 <img width="659" alt="截屏2024-11-09 下午9 38 35" src="https://github.com/user-attachments/assets/e3a2b3e3-b5bf-434a-bbef-2f484783f427">
 
 The final path:
-
 <img width="606" alt="截屏2024-11-09 下午8 58 07" src="https://github.com/user-attachments/assets/455ba55d-5c0f-43d3-b323-593dfe434543">
 
 
@@ -250,10 +249,11 @@ In task A2, the environment keep changing for each operations inside the boundar
 
 
 # Task A3
-In task A3, we chose Breadth-First Search algorithm:
+In task A3, we use AI to generate two codes, with exactly same boundary and obstacles, but driven by Breadth-First Search(BFS) algorithm and Dijkstra's Algorithm respectively
+Breadth-First Search(BFS):
 ![image](https://github.com/user-attachments/assets/864b8c7f-b7b7-4c52-ad50-b581cba17910)
 
-And Dijkstra's Algorithm:
+Dijkstra:
 ![image](https://github.com/user-attachments/assets/809a5717-e171-4c25-8242-b24149eec3d0)
 
 ## Working principle:
