@@ -258,24 +258,22 @@ And Dijkstra's Algorithm:
 ![image](https://github.com/user-attachments/assets/809a5717-e171-4c25-8242-b24149eec3d0)
 
 
+##Comparison
+###Breadth-First Search (BFS)
+   ####Pros:
+      ####Completeness: BFS is complete, meaning it will find a solution if one exists.
+      ####Optimality: In unweighted graphs, BFS finds the shortest path in terms of the number of edges.
+   ####Cons:
+      ####Memory Usage: BFS can require a lot of memory because it stores all nodes at the current depth level.
+      ####Inefficiency in Weighted Graphs: BFS does not account for edge weights, making it unsuitable for finding the shortest path in weighted graphs.
+###Dijkstra's Algorithm
+   ####Pros:
+      ####Optimality: Dijkstra's algorithm is guaranteed to find the shortest path in graphs with non-negative weights.
+      ####Versatility: It can be used to find the shortest path from a single source to all other nodes.
+   ####Cons:
+      ####Inefficiency with Large Graphs: Dijkstra's algorithm can be slower than A* in large graphs because it does not use heuristics to guide the search.
+      ####Memory Usage: Like A*, it can consume a lot of memory, especially in dense graphs.
 
-## Similarity between the two algorithms:
-
-Both algorithms traverse a graph by systematically visiting nodes in a specific order. 
-
-Both algorithms also maintain a list of visited nodes to avoid revisiting the same node multiple times.
-
-## Difference between the two algorithms:
-
-Breadth-First Search Algorithm: 
-
-Commonly used in network analysis, shortest path problems in unweighted graphs, and graph traversal.
-In data structures, Breadth-First Search Algorithm uses a simple queue to manage nodes, processing them in the order they are discovered.
-
-Dijkstra's Algorithm: 
-
-Frequently applied in routing algorithms, network analysis, and pathfinding in maps or GPS systems.
-In data structures, Dijkstra's Algorithm uses a priority queue to manage nodes, ensuring the node with the smallest known distance is processed first and maintains a distances dictionary to track the shortest known distance to each node.
 
 
 # Individual Evaluation
