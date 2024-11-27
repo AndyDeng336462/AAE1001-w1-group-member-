@@ -162,7 +162,7 @@ time cost by 2 $/min (Base CT = 12 $/min) ,given that each engine consumes fuel 
 
 ## Solution:
 
-## SCENARIO 1: Capacity can increase by the unit of 1)
+## SCENARIO 1: Capacity can increase by the unit of 1
 
 Step1: From the powerpoint we can simply get the equation and the first thing we need to do is to separate the domain.
 
@@ -170,7 +170,7 @@ Step2: We notice that when the number of passengers per flight goes greater than
 
 Step3: To meet the basic requirement of scenario1, We need at least 250 capacity to carry all 3000 passengers, and in this design, we need 12 flghts.
 
-Step4: Then we try to increase the capacity of our plane. We find that when x goes 272, it still requir 12 flights. Only when x goes to 273 will the fight number decrease to 11. So we get our first domain:250~272. And the tatal cost can be denoted by one function:
+Step4: Then we try to increase the capacity of our plane. We find that when x goes 272, it still requir 12 flights. Only when x goes to 273 will the fight number decrease to 11. So we get our first domain:250≤x≤272. And the tatal cost can be denoted by one function:
 ![image](https://github.com/user-attachments/assets/fb9f9785-975d-4ae0-bb97-1963e8de20b1)
 
 $${\color{lightgreen}Some \space group \space memebers \space argue \space that \space the \space capacity \space of \space aircraft \space can \space not \space increase \space by \space the \space unit \space of \space 1 \space due \space to \space its \space design, \space so \space we \space separate \space out \space scenario \space 2(the \space capacity \space of \space aircraft \space increase \space by \space the \space unit \space of \space 50)}$$
@@ -185,7 +185,7 @@ Step6: We use GEOGEBRA to generate its graph. Meanwhile we think the minimum uni
 ![image](https://github.com/user-attachments/assets/8347d03d-787d-4133-b008-f66b51cfc141)
 
 
-Step7: Comparing these two values, we decide to make our aircraft with two engines and 273 capacity . It is the optimum design.We name this aircraft as a350-200. 
+Step7: Comparing these two values, we decide to make our aircraft with two engines and 273 capacity . It is the optimum design.
 
 ## SCENARIO 2: Capacity increase by the unit of 50
 
@@ -198,16 +198,18 @@ Step2: So we write a code to automatically calculate five respective costs, then
 ### Overview:
 ![2024-11-09 13-06-34 00_00_01-00_00_08](https://github.com/user-attachments/assets/5b4c8602-da39-4967-a0b0-cdf2f1771841)
 
-## Verdict:
-
-In scenario1 of task 3, the best capacity is 273
-In scenario2 of task 3, the best capacity is 450
+## Optimum design:
+In scenario 1 of task 3, capacity:273, equipped with 2 engines.
+In scenario 2 of task 3, capacity:450, equipped with 4 engines.
+And her name is A350-Group 6
 
 
 
 # Task A1
 
-In task A1, we add two checkpoints on the basis of task 1, one checkpoint for each cost intensive area. We also let the aircraft reach these two points.
+We analysed the ground rules of A* algorithm and completely understand how it works. So, other than generating 3 individual paths and combine them together, we define "check points" in the code, and change its movement rule to make the path go through two check points.
+
+We add two checkpoints on the basis of task 1, one checkpoint for each cost intensive area.
 
 The code for adding these two checkpoints:
 
