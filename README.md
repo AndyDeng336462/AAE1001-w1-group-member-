@@ -250,6 +250,7 @@ In task A2, the environment keep changing for each operations inside the boundar
 
 # Task A3
 In task A3, we use AI to generate two codes, with exactly same boundary and obstacles, but driven by Breadth-First Search(BFS) algorithm and Dijkstra's Algorithm respectively
+
 Breadth-First Search(BFS):
 ![image](https://github.com/user-attachments/assets/864b8c7f-b7b7-4c52-ad50-b581cba17910)
 
